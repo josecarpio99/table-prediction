@@ -1,0 +1,78 @@
+[
+  {
+    "name": "AC Milan",
+    "logo": "ac-milan.png"
+  },
+  {
+    "name": "Atalanta",
+    "logo": "atalanta.png"
+  },
+  {
+    "name": "Bologna",
+    "logo": "bologna.png"
+  },
+  {
+    "name": "Cagliari",
+    "logo": "cagliari.png"
+  },
+  {
+    "name": "Empoli",
+    "logo": "empoli.png"
+  },
+  {
+    "name": "Fiorentina",
+    "logo": "fiorentina.png"
+  },
+  {
+    "name": "Frosinone",
+    "logo": "frosinone.png"
+  },
+  {
+    "name": "Genoa",
+    "logo": "genoa.png"
+  },
+  {
+    "name": "Verona",
+    "logo": "verona.png"
+  },
+  {
+    "name": "Inter",
+    "logo": "inter.png"
+  },
+  {
+    "name": "Juventus",
+    "logo": "juventus.png"
+  },
+  {
+    "name": "Lecce",
+    "logo": "lecce.png"
+  },
+  {
+    "name": "Monza",
+    "logo": "monza.png"
+  },
+  {
+    "name": "Napoli",
+    "logo": "napoli.png"
+  },
+  {
+    "name": "Roma",
+    "logo": "roma.png"
+  },
+  {
+    "name": "Salernitana",
+    "logo": "salernitana.png"
+  },
+  {
+    "name": "Udinese",
+    "logo": "udinese.png"
+  },
+  {
+    "name": "Torino",
+    "logo": "torino.png"
+  },
+  {
+    "name": "Sassuolo",
+    "logo": "sassuolo.png"
+  }
+]
