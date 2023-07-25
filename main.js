@@ -1,9 +1,14 @@
 import './main.css'
 import teams from './teams.json'
 import interact from 'interactjs'
+import * as htmlToImage from 'html-to-image'
+import { toPng, toBlob } from 'html-to-image'
+import download from 'downloadjs'
 
 const $teamsList = document.querySelector('#teams-list')
+const $saveBtn = document.querySelector('#save-btn')
 const $tableList = document.querySelector('#table-list')
+const $imageWrapper = document.querySelector('#image-wrapper')
 
 teams.forEach((team, i) => {
   const liEl1 = document.createElement("li")
@@ -13,20 +18,6 @@ teams.forEach((team, i) => {
       </div>
   `
   $teamsList.appendChild(liEl1)
-
-  // const liEl2 = document.createElement("li")
-  // liEl2.classList.add('flex', 'border-2', 'border-t-0', 'border-white', 'items-center', 'w-64')
-  
-  // liEl2.innerHTML = `
-  //   <div class="basis-1/5 text-2xl">
-  //     <span class="font-semibold">
-  //       ${(i) % 2 == 0 ? i - 1 : i + 2}
-  //     </span>
-  //   </div>
-  //   <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
-  //   </div>
-  // `
-  // $tableList.appendChild(liEl2)
 })
 
 const $teamsListItem = document.querySelectorAll('#teams-list li')
@@ -88,10 +79,10 @@ function setupDropzone (target, accept) {
     })   
     .on('drop', (event) => {
       const team = teams.find(record => record.name == event.relatedTarget.dataset.name)
+      const childrenEl = event.target.querySelector('.js-drag')
 
-      if (hasClass(event.target, 'occupied')) {
+      if (childrenEl) {
         const relatedParent = event.relatedTarget.closest('.js-drop')
-        const childrenEl = event.target.querySelector('.js-drag')
         if (relatedParent) {          
           event.target.appendChild(relatedParent.querySelector('.js-drag'))
           relatedParent.appendChild(childrenEl)
@@ -167,3 +158,21 @@ interact(document).on('ready', () => {
               : null
 })
 /* eslint-enable multiline-ternary */
+
+$saveBtn.addEventListener('click', (e) => {
+  $imageWrapper.style.display = 'flex';
+  $imageWrapper.querySelector('#table-content').innerHTML = '';
+
+  const newNode = $tableList.cloneNode(true)
+
+  $imageWrapper.querySelector('#table-content').appendChild(newNode)
+
+  htmlToImage.toPng($imageWrapper)
+  .then(function (dataUrl) {
+    download(dataUrl, 'seria_a_predictions_2023_2024.png');
+    $imageWrapper.style.display = 'none';
+  })
+  .catch(function (error) {
+    console.error('oops, something went wrong!', error);
+  });
+})

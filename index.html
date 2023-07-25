@@ -8,21 +8,13 @@
   <title>Seria A Table Prediction 2023-2024</title>
 </head>
 
-<body> 
-  <div id="app">
+<body class="overflow-hidden"> 
+  <div class="min-h-[100vh]" id="app">
+    <div class="mb-4">
+      <button class="p-2 bg-sky-800 hover:bg-sky-900 rounded-md" id="save-btn">Save</button>
+    </div>
     <div class="flex justify-around w-5/6">
-      <div>
-        <!-- <ul class="grid grid-cols-2 grid-rows-2" id="tableList">
-            <li class="flex border-2 border-t-0 border-white items-center w-64">
-              <div class="basis-1/5 text-2xl">
-                <span class="font-semibold">1</span>
-              </div>
-              <div class="basis-4/5 flex items-center border-l-2 border-white p-2">
-                <img class="w-8 h-8 mr-2" src="./logos/italy/ac-milan.png" alt="logo">
-                <span class="text-xl whitespace-nowrap">Ac Milan</span>
-              </div>
-            </li>          
-          </ul> -->
+      <div>        
         <ul class="grid grid-cols-2 grid-rows-2" id="table-list">
           <li class="flex border-2 border-white items-center w-64">
             <div class="basis-1/5 text-2xl">
@@ -172,6 +164,162 @@
           
         </ul>
       </div>
+    </div>
+  </div>
+  <div class="hiddenbg-[#242424] items-center justify-center flex-col w-[1600px] h-[900px] text-center p-4" id="image-wrapper">
+
+    <div class="mb-4 flex items-center justify-center">
+      <img class="h-20 w-20 mr-4" src="./logos/italy/serie-a-logo.png" alt="">
+      <h1 class="text-5xl">Seria A</h1>
+    </div>
+
+    <div id="table-content" class="mb-2">
+      <ul class="grid grid-cols-2 grid-rows-2" id="table-list">
+        <li class="flex border-2 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">1</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">11</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">2</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">12</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">3</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">13</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">4</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">14</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">5</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">15</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">6</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">16</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">7</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">17</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">8</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">18</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">9</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">19</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">10</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+        <li class="flex border-2 border-t-0 border-white items-center w-64">
+          <div class="basis-1/5 text-2xl">
+            <span class="font-semibold">20</span>
+          </div>
+          <div class="basis-4/5 h-12 border-l-2 border-white p-2 dropzone js-drop">
+          </div>
+        </li>          
+      </ul>
+    </div>
+
+    <div>
+      <p class="text-green-500 text-xl" >mywebsite.com</p>
     </div>
   </div>
   <script type="module" src="/main.js"></script>

@@ -5,7 +5,13 @@ module.exports = {
   },
   plugins: [],
   safelist: [
+    'w-[32rem]',
+    'text-3xl',
+    'text-xl',
+    'mr-2',
     'h-10',
+    'h-12',
+    'h-24',
     'w-10',
     'border-2',
     'border-white',
@@ -13,6 +19,7 @@ module.exports = {
     'w-8',
     'w-64',
     'border-t-0',
-    'font-semibold'
+    'font-semibold',
+    'justify-center'
   ]
 }
