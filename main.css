@@ -33,3 +33,34 @@ body {
   padding: 2rem;
   text-align: center;
 }
+
+#table-list li:nth-child(1),
+#table-list li:nth-child(2)
+{
+  border-top-width: 2px;
+}
+
+.dropzone-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.dropzone.-drop-possible { border-color: #666; }
+
+.dropzone.-drop-over {
+  background: #666;
+  color: #fff;
+}
+
+.draggable {
+  position: relative;
+    z-index: 10;
+  -ms-touch-action: none;
+      touch-action: none;
+}
+
+.dropped {
+  position: initial;
+}

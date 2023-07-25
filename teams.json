@@ -1,6 +1,6 @@
 [
   {
-    "name": "AC Milan",
+    "name": "Ac Milan",
     "logo": "ac-milan.png"
   },
   {
@@ -30,11 +30,7 @@
   {
     "name": "Genoa",
     "logo": "genoa.png"
-  },
-  {
-    "name": "Verona",
-    "logo": "verona.png"
-  },
+  },  
   {
     "name": "Inter",
     "logo": "inter.png"
@@ -42,6 +38,10 @@
   {
     "name": "Juventus",
     "logo": "juventus.png"
+  },
+  {
+    "name": "Lazio",
+    "logo": "lazio.png"
   },
   {
     "name": "Lecce",
@@ -64,15 +64,19 @@
     "logo": "salernitana.png"
   },
   {
-    "name": "Udinese",
-    "logo": "udinese.png"
+    "name": "Sassuolo",
+    "logo": "sassuolo.png"
   },
   {
     "name": "Torino",
     "logo": "torino.png"
   },
   {
-    "name": "Sassuolo",
-    "logo": "sassuolo.png"
+    "name": "Udinese",
+    "logo": "udinese.png"
+  },
+  {
+    "name": "Verona",
+    "logo": "verona.png"
   }
 ]

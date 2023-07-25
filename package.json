@@ -15,6 +15,6 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "sortablejs": "^1.15.0"
+    "interactjs": "^1.10.17"
   }
 }
