@@ -22,7 +22,6 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  padding-top: 2rem;
 }
 
 #app {
@@ -31,6 +30,7 @@ body {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  padding-top: 2rem;
 }
 
 #table-list li:nth-child(1),
