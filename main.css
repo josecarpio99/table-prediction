@@ -22,13 +22,14 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  padding-top: 2rem;
 }
 
 #app {
   max-width: 1280px;
+  min-height: 100vh;
   width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -63,6 +64,10 @@ body {
   position: initial;
 }
 
+.dropzone .js-drag {
+  justify-content: start;
+}
+
 #table-content li {
   width: 32rem;
 }
@@ -72,16 +77,19 @@ body {
 }
 
 #table-content .js-drop {
-  height: 4rem;
+  padding: .5rem 0 .5rem .5rem .5rem;
+  height: auto;
 }
 
 #table-content .js-drag img {
-  height: 3rem;
-  width: 3rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-right: .75rem;
 }
 
 #table-content .js-drag span {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
+  letter-spacing: 2px;
 }
 
 #save-btn {
