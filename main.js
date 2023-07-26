@@ -119,6 +119,7 @@ function setupDropzone (target, accept) {
         event.target.appendChild(event.relatedTarget)
       }
 
+      checkIfAllItemsHaveBeenDropped();
     })
 }
 
@@ -140,6 +141,12 @@ function removeClass (element, className) {
 
 function hasClass (element, className) {
   return element.classList.contains(className)
+}
+
+function checkIfAllItemsHaveBeenDropped() {
+  if ([...$teamsListItem].every(el => el.innerHTML.trim() === '')) {
+    removeClass($saveBtn, 'hidden')
+  }
 }
 
 /* eslint-disable multiline-ternary */
