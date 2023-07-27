@@ -32,6 +32,11 @@ body {
   text-align: center;
 }
 
+#table-list li:nth-child(even)
+{
+  border-left-width: 0px;
+}
+
 #table-list li:nth-child(1),
 #table-list li:nth-child(2)
 {
