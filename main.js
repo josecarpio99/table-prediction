@@ -15,7 +15,7 @@ teams.forEach((team, i) => {
   const liEl1 = document.createElement("li")
   liEl1.innerHTML = `
       <div class="flex items-center justify-center draggable js-drag" id="drag${i + 1}" data-name="${team.name}" data-index="${i}">
-        <img class="h-6 w-6 md:h-10 md:w-10" src="./logos/italy/${team.logo}" alt="logo ${team.name}">
+        <img class="h-6 w-6 md:h-10 md:w-10" src="./../../logos/italy/${team.logo}" alt="logo ${team.name}">
       </div>
   `
   $teamsList.appendChild(liEl1)
