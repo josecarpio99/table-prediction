@@ -10,7 +10,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        'serie-a-table-prediction-2023-2024/index': resolve(__dirname, 'pages/serie-a-table-prediction-2023-2024/', 'index.html'),
+        'serie-a-table-prediction-2023-2024': resolve(__dirname, 'serie-a-table-prediction-2023-2024/', 'index.html'),
       },
     },
   },
