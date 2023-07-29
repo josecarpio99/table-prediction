@@ -1,82 +1,122 @@
 [
   {
     "name": "Ac Milan",
-    "logo": "ac-milan.png"
+    "logo": "ac-milan.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Atalanta",
-    "logo": "atalanta.png"
+    "logo": "atalanta.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Bologna",
-    "logo": "bologna.png"
+    "logo": "bologna.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Cagliari",
-    "logo": "cagliari.png"
+    "logo": "cagliari.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Empoli",
-    "logo": "empoli.png"
+    "logo": "empoli.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Fiorentina",
-    "logo": "fiorentina.png"
+    "logo": "fiorentina.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Frosinone",
-    "logo": "frosinone.png"
+    "logo": "frosinone.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Genoa",
-    "logo": "genoa.png"
+    "logo": "genoa.png",
+    "country": "italy",
+    "league": "serie a"
   },  
   {
     "name": "Inter",
-    "logo": "inter.png"
+    "logo": "inter.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Juventus",
-    "logo": "juventus.png"
+    "logo": "juventus.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Lazio",
-    "logo": "lazio.png"
+    "logo": "lazio.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Lecce",
-    "logo": "lecce.png"
+    "logo": "lecce.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Monza",
-    "logo": "monza.png"
+    "logo": "monza.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Napoli",
-    "logo": "napoli.png"
+    "logo": "napoli.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Roma",
-    "logo": "roma.png"
+    "logo": "roma.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Salernitana",
-    "logo": "salernitana.png"
+    "logo": "salernitana.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Sassuolo",
-    "logo": "sassuolo.png"
+    "logo": "sassuolo.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Torino",
-    "logo": "torino.png"
+    "logo": "torino.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Udinese",
-    "logo": "udinese.png"
+    "logo": "udinese.png",
+    "country": "italy",
+    "league": "serie a"
   },
   {
     "name": "Verona",
-    "logo": "verona.png"
+    "logo": "verona.png",
+    "country": "italy",
+    "league": "serie a"
   }
 ]
