@@ -118,5 +118,119 @@
     "logo": "verona.png",
     "country": "italy",
     "league": "serie a"
+  },
+  {
+    "name": "Arsenal",
+    "logo": "arsenal.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Aston Villa",
+    "logo": "aston_villa.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Bournemouth",
+    "logo": "bournemouth.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Brentford",
+    "logo": "brentford.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Brighton",
+    "logo": "brighton.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Burnley",
+    "logo": "burnley.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Chelsea",
+    "logo": "chelsea.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Crystal Palace",
+    "logo": "crystal_palace.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Everton",
+    "logo": "everton.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Fulham",
+    "logo": "fulham.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Luton Town",
+    "logo": "luton_town.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Man City",
+    "logo": "manchester_city.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Man United",
+    "logo": "manchester_united.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Newcastle",
+    "logo": "newcastle.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Nottm Forest",
+    "logo": "nottingham_forest.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Sheffield United",
+    "logo": "sheffield_united.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "Tottenham",
+    "logo": "tottenham.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "West Ham",
+    "logo": "west_ham.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
+    "name": "wolverhampton",
+    "logo": "wolverhampton.png",
+    "country": "england",
+    "league": "premier league"
   }
 ]

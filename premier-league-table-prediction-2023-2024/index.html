@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premier League Table Prediction 2023-2024</title>
+</head>
+
+<body> 
+  <div class="pt-8 lg:pt-16" id="app">
+
+    <div class="flex items-center justify-center mb-8 md:mb-10 flex-col md:flex-row ">
+      <img class="h-10 w-10 mr-2 mb-2 md:mb-0" src="/../logos/england/premier-league-logo.png" alt="premier league logo">
+      <h1 class="text-lg font-semibold md:text-2xl">Premier League Table Prediction 2023-2024</h1>
+    </div>  
+
+    <div class="md:mb-4">
+      <button class="hidden flex mx-auto p-2 px-4 shadow-md bg-green-600 hover:bg-green-700 rounded-md" id="save-btn">
+        <img class="h-6 w-6 mr-2 text-white inline-block" src="/../icons/save-icon-white.svg" alt="save icon">
+        <span class="align-bottom uppercase font-semibold">Save</span></button>
+    </div>
+    
+    <div class="flex flex-col w-full">
+      <div class="mb-6">
+        <ul class="grid grid-flow-col grid-rows-2 gap-2 min-w-[232px]" id="teams-list">
+          
+        </ul>
+      </div>
+
+      <div class="px-2">         
+        <ul class="max-w-[42rem] grid grid-cols-2 grid-rows-2 mx-auto" id="table-list">
+          <li class="flex border-2 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">1</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">11</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">2</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">12</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">3</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">13</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">4</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">14</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">5</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">15</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">6</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">16</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">7</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">17</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">8</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">18</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">9</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">19</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">10</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+          <li class="flex border-2 border-t-0 border-white items-center w-full">
+            <div class="basis-1/5 text-md md:text-2xl">
+              <span class="font-semibold">20</span>
+            </div>
+            <div class="basis-4/5 h-8 md:h-12 border-l-2 border-white p-[.25rem] md:p-2 dropzone js-drop">
+            </div>
+          </li>          
+        </ul>
+      </div>
+
+      
+    </div>
+  </div>
+  <div class="hidden bg-[#242424] items-center justify-center flex-col w-[1600px] h-[900px] text-center p-4" id="image-wrapper">
+
+    <div class="mb-4 flex items-center justify-center">
+      <img class="h-20 w-20 mr-4" src="./logos/england/premier-league-logo.png" alt="">
+      <h1 class="text-5xl">Premier League</h1>
+    </div>
+
+    <div id="table-content" class="mb-2">
+      
+    </div>
+
+    <div>
+      <p class="text-green-500 text-xl" >mywebsite.com</p>
+    </div>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
