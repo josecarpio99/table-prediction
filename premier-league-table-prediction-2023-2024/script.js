@@ -1,4 +1,3 @@
-import '../main.css'
 import {teams as teamModel} from '../teams.js'
 import interact from 'interactjs'
 import * as htmlToImage from 'html-to-image'
