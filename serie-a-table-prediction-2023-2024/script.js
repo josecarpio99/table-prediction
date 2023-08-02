@@ -5,7 +5,7 @@ import * as htmlToImage from 'html-to-image'
 import { toPng, toBlob } from 'html-to-image'
 import download from 'downloadjs'
 
-const teams = teamModel().getByLeague('premier league')
+const teams = teamModel().getByLeague('serie a')
 const $body = document.querySelector('body')
 const $teamsList = document.querySelector('#teams-list')
 const $saveBtn = document.querySelector('#save-btn')
@@ -16,7 +16,7 @@ teams.forEach((team, i) => {
   const liEl1 = document.createElement("li")
   liEl1.innerHTML = `
       <div class="flex items-center justify-center draggable js-drag" id="drag${i + 1}" data-name="${team.name}" data-index="${i}">
-        <img class="h-6 w-6 md:h-10 md:w-10" src="../logos/england/${team.logo}" alt="logo ${team.name}">
+        <img class="h-6 w-6 md:h-10 md:w-10" src="../logos/italy/${team.logo}" alt="logo ${team.name}">
       </div>
   `
   $teamsList.appendChild(liEl1)
@@ -91,7 +91,7 @@ function setupDropzone (target, accept) {
         } else {
           const currentTeam = teams.find(record => record.name == childrenEl.dataset.name)
           childrenEl.innerHTML = `
-            <img class="h-6 w-6 md:h-10 md:w-10" src="../logos/england/${currentTeam.logo}" alt="logo">
+            <img class="h-6 w-6 md:h-10 md:w-10" src="../logos/italy/${currentTeam.logo}" alt="logo">
           `;
 
           $teamsListItem[childrenEl.dataset.index].appendChild(childrenEl)
@@ -101,7 +101,7 @@ function setupDropzone (target, accept) {
           event.relatedTarget.style.top = '0px'  
     
           event.relatedTarget.innerHTML = `
-            <img class="w-4 h-4 md:w-8 md:h-8 mr-2" src="../logos/england/${team.logo}" alt="logo">
+            <img class="w-4 h-4 md:w-8 md:h-8 mr-2" src="../logos/italy/${team.logo}" alt="logo">
             <span class="text-md md:text-xl whitespace-nowrap">${team.name}</span>
           `;
           event.target.appendChild(event.relatedTarget); 
@@ -115,7 +115,7 @@ function setupDropzone (target, accept) {
         event.relatedTarget.style.top = '0px'  
   
         event.relatedTarget.innerHTML = `
-          <img class="w-4 h-4 md:w-8 md:h-8 mr-2" src="../logos/england/${team.logo}" alt="logo">
+          <img class="w-4 h-4 md:w-8 md:h-8 mr-2" src="../logos/italy/${team.logo}" alt="logo">
           <span class="text-md md:text-xl whitespace-nowrap">${team.name}</span>
         `;
         event.target.appendChild(event.relatedTarget)
@@ -179,7 +179,7 @@ $saveBtn.addEventListener('click', (e) => {
 
   htmlToImage.toPng($imageWrapper)
   .then(function (dataUrl) {
-    download(dataUrl, 'premier_league_predictions_2023_2024.png')
+    download(dataUrl, 'seria_a_predictions_2023_2024.png')
     $imageWrapper.style.display = 'none'
     removeClass($body, 'overflow-hidden')
 

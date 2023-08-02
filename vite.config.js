@@ -9,6 +9,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
+        main: resolve(__dirname, 'index.html'),
         'serie-a-table-prediction-2023-2024': resolve(__dirname, 'serie-a-table-prediction-2023-2024/', 'index.html'),
         'premier-league-table-prediction-2023-2024': resolve(__dirname, 'premier-league-table-prediction-2023-2024/', 'index.html'),
       },

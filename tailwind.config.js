@@ -1,5 +1,9 @@
 module.exports = {
-  content: ["./index.html", "./src/**/*.{html,js}"],
+  content: [
+    "./index.html", 
+    "./premier-league-table-prediction-2023-2024/index.html", 
+    "./src/**/*.{html,js}"
+  ],
   theme: {
     extend: {},
   },

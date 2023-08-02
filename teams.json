@@ -180,6 +180,12 @@
     "league": "premier league"
   },
   {
+    "name": "Liverpool",
+    "logo": "liverpool.png",
+    "country": "england",
+    "league": "premier league"
+  },
+  {
     "name": "Luton Town",
     "logo": "luton_town.png",
     "country": "england",
