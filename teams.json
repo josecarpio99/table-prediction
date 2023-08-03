@@ -240,7 +240,7 @@
     "league": "premier league"
   },
   {
-    "name": "brest",
+    "name": "Brest",
     "logo": "brest.png",
     "country": "france",
     "league": "ligue 1"
@@ -270,8 +270,14 @@
     "league": "ligue 1"
   },
   {
-    "name": "lorient",
+    "name": "Lorient",
     "logo": "lorient.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Lyon",
+    "logo": "lyon.png",
     "country": "france",
     "league": "ligue 1"
   },

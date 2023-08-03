@@ -3,6 +3,9 @@ module.exports = {
     "./index.html", 
     "./premier-league-table-prediction-2023-2024/index.html", 
     "./serie-a-table-prediction-2023-2024/index.html", 
+    "./ligue-1-table-prediction-2023-2024/index.html", 
+    "./la-liga-table-prediction-2023-2024/index.html", 
+    "./bundesliga-table-prediction-2023-2024/index.html", 
     "./src/**/*.{html,js}"
   ],
   theme: {
