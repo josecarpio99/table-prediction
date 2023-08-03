@@ -101,7 +101,7 @@ function setupDropzone (target, accept) {
     
           event.relatedTarget.innerHTML = `
             <img class="w-4 h-4 md:w-8 md:h-8 mr-2" src="../logos/italy/${team.logo}" alt="logo">
-            <span class="text-md md:text-xl whitespace-nowrap">${team.name}</span>
+            <span class="text-sm md:text-xl whitespace-nowrap">${team.name}</span>
           `;
           event.target.appendChild(event.relatedTarget); 
           
@@ -115,7 +115,7 @@ function setupDropzone (target, accept) {
   
         event.relatedTarget.innerHTML = `
           <img class="w-4 h-4 md:w-8 md:h-8 mr-2" src="../logos/italy/${team.logo}" alt="logo">
-          <span class="text-md md:text-xl whitespace-nowrap">${team.name}</span>
+          <span class="text-sm md:text-xl whitespace-nowrap">${team.name}</span>
         `;
         event.target.appendChild(event.relatedTarget)
       }
