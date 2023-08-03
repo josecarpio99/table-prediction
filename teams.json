@@ -366,6 +366,12 @@
     "league": "la liga"
   },
   {
+    "name": "Atlético Madrid",
+    "logo": "atletico_madrid.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
     "name": "Barcelona",
     "logo": "barcelona.png",
     "country": "spain",
@@ -379,7 +385,7 @@
   },  
   {
     "name": "Celta Vigo",
-    "logo": "celta-vigo.png",
+    "logo": "celta_vigo.png",
     "country": "spain",
     "league": "la liga"
   },  
