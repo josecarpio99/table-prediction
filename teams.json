@@ -468,13 +468,13 @@
     "league": "bundesliga"
   },
   {
-    "name": "leverkusen",
+    "name": "Leverkusen",
     "logo": "leverkusen.png",
     "country": "germany",
     "league": "bundesliga"
   },
   {
-    "name": "Bayern Munchen",
+    "name": "Bayern Munich",
     "logo": "bayern_munchen.png",
     "country": "germany",
     "league": "bundesliga"
@@ -486,7 +486,13 @@
     "league": "bundesliga"
   },
   {
-    "name": "Monchengladbach",
+    "name": "Dortmund",
+    "logo": "dortmund.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "Borussia Monch",
     "logo": "monchengladbach.png",
     "country": "germany",
     "league": "bundesliga"

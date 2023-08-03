@@ -13,6 +13,8 @@ export default defineConfig({
         'serie-a-table-prediction-2023-2024': resolve(__dirname, 'serie-a-table-prediction-2023-2024/', 'index.html'),
         'premier-league-table-prediction-2023-2024': resolve(__dirname, 'premier-league-table-prediction-2023-2024/', 'index.html'),
         'ligue-1-table-prediction-2023-2024': resolve(__dirname, 'ligue-1-table-prediction-2023-2024/', 'index.html'),
+        'la-liga-table-prediction-2023-2024': resolve(__dirname, 'la-liga-table-prediction-2023-2024/', 'index.html'),
+        'bundesliga-table-prediction-2023-2024': resolve(__dirname, 'bundesliga-table-prediction-2023-2024/', 'index.html'),
       },
     },
   },
