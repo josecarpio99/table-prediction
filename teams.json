@@ -238,5 +238,323 @@
     "logo": "wolverhampton.png",
     "country": "england",
     "league": "premier league"
-  }
+  },
+  {
+    "name": "brest",
+    "logo": "brest.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Clermont Foot",
+    "logo": "clermont_foot.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Le Havre",
+    "logo": "le_havre.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Lens",
+    "logo": "lens.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "LOSC Lille",
+    "logo": "losc_lille.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "lorient",
+    "logo": "lorient.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Marseille",
+    "logo": "marseille.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Metz",
+    "logo": "metz.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Monaco",
+    "logo": "monaco.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Montpellier",
+    "logo": "montpellier.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Nantes",
+    "logo": "nantes.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Nice",
+    "logo": "nice.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "PSG",
+    "logo": "psg.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Reims",
+    "logo": "reims.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Rennes",
+    "logo": "rennes.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Strasbourg",
+    "logo": "strasbourg.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Toulouse",
+    "logo": "toulouse.png",
+    "country": "france",
+    "league": "ligue 1"
+  },
+  {
+    "name": "Alavés",
+    "logo": "alaves.png",
+    "country": "spain",
+    "league": "la liga"
+  },
+  {
+    "name": "Almería",
+    "logo": "almeria.png",
+    "country": "spain",
+    "league": "la liga"
+  },
+  {
+    "name": "Athletic Club",
+    "logo": "athletic.png",
+    "country": "spain",
+    "league": "la liga"
+  },
+  {
+    "name": "Barcelona",
+    "logo": "barcelona.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Cádiz",
+    "logo": "cadiz.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Celta Vigo",
+    "logo": "celta-vigo.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Getafe",
+    "logo": "getafe.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Girona",
+    "logo": "girona.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Granada",
+    "logo": "granada.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Las Palmas",
+    "logo": "las_palmas.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Osasuna",
+    "logo": "osasuna.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Mallorca",
+    "logo": "mallorca.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Rayo Vallecano",
+    "logo": "rayo_vallecano.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Real Betis",
+    "logo": "real_betis.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Real Madrid",
+    "logo": "real_madrid.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Real Sociedad",
+    "logo": "real_sociedad.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Sevilla",
+    "logo": "sevilla.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Valencia",
+    "logo": "valencia.png",
+    "country": "spain",
+    "league": "la liga"
+  },  
+  {
+    "name": "Villareal",
+    "logo": "villareal.png",
+    "country": "spain",
+    "league": "la liga"
+  }, 
+  {
+    "name": "Augsburg",
+    "logo": "augsburg.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "leverkusen",
+    "logo": "leverkusen.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "Bayern Munchen",
+    "logo": "bayern_munchen.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "VFL Bochum",
+    "logo": "vfl_bochum.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "Monchengladbach",
+    "logo": "monchengladbach.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "Darmstadt",
+    "logo": "darmstadt.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "Frankfurt",
+    "logo": "eintracht_frankfurt.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "koln",
+    "logo": "koln.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "Freiburg",
+    "logo": "freiburg.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "Heidenheim",
+    "logo": "heidenheim.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "Hoffenheim",
+    "logo": "hoffenheim.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "Mainz",
+    "logo": "mainz.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "RB Leipzig",
+    "logo": "rb_leipzig.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "Stuttgart",
+    "logo": "stuttgart.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "Union Berlin",
+    "logo": "union_berlin.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "Werder Bremen",
+    "logo": "werder_bremen.png",
+    "country": "germany",
+    "league": "bundesliga"
+  },
+  {
+    "name": "Wolfsburg",
+    "logo": "wolfsburg.png",
+    "country": "germany",
+    "league": "bundesliga"
+  }  
 ]
